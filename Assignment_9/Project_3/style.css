@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.upper-part{
+    background-color: rgba(0, 0, 0, 0.902);
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+.upper-part h1{
+    padding: 7px;
+}
+
+.search input{
+    width: 700px;
+    padding: 10px;
+    margin: 5px;
+    /* border: none; */
+    border-radius: 5px;
+    /* outline: none; */
+}
+
+.search button{
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 145, 0, 0.881);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.cart{
+    display: flex;
+    align-items: anchor-center;
+}
+.cart img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.navbar{
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: rgb(255, 196, 0);
+    color: aliceblue;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(0, 136, 255);
+    padding: 10px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.navbar ul li{
+    padding: 10px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.571);
+}
